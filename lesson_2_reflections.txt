@@ -6,4 +6,7 @@ q: How is the staging area different from the working directory and the reposito
 
 a: The staging area allows you to select specific files from the working directory so that the user can commit logical changes, or commit all the files in the working directory at once. 
 
-q: 
+q: How can you use the staging area to make sure you have one commit per logical change?
+
+a: If a logical change has not been made in a working directory, then the user can select only the files which have a logical change made to be commited into the repository. 
+
