@@ -33,3 +33,12 @@ git add
 Specify a commit message via command line
 git commit -m "Commit message"
 
+see changes from working directory and staging area
+git diff
+
+see changes from staging area and repository
+git diff --staged
+
+discard changes in working directory or staging area (not reversable. Can lose changes!!!)
+git reset --hard
+
