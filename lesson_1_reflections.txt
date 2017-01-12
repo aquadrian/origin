@@ -1,0 +1,29 @@
+q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+a: It was much easier and faster to use this function to see the changes and the differences between two files without having to manually look line by line though endless lines of code!
+
+q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+a: This helps greatly in keeping track of specific changes and having the ability to revert back to an old version in case there was a major bug introduced in a new version of the file. 
+
+q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+a: Manually choosing helps the user keep control of when to choose to version a file and knowingly track changes. Automatic versioning helps in cases where a user might forget to commit or save changes, but this creates a large amount of versions that are difficult to track and are not always logical changes.
+
+q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+a: There are instances where a file is dependant on another file, so multiple files need to be commited together to track the changes easier. If changes are tracked separately, the user would have to find the time at which each file was changed and try to match the timestamps of each file change.
+
+q: How can you use the commands git log and git diff to view the history of files?
+
+a: Git log shows a log of all the changes in the repo with comments for each commit. The git diff command shows what changes have been made between two commits. 
+
+q: How might using version control make you more confident to make changes that could break something?
+
+a: I feel that I can take more risks and try something unique in my code since I can always revert to a version that was working better in case there was a major bug in my code. 
+
+q: Now that you have your workspace set up, what do you want to try using Git for?
+
+a: This new setup makes it even easier to use Bash and understand what directories im looking at and what commit I have open. 
+
+q: 
