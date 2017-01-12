@@ -1,1 +1,9 @@
-q:What happens when you initialize a repository? Why do you need to do it?
+q: What happens when you initialize a repository? Why do you need to do it?
+
+a: Initiating a repository places a .git folder, which is a hidden folder denoted by a period in front of it that contains in its folder metadata that does not need to be modified directly by the user. This is necessary to create a repository. You can then track the status of the repo with git status. 
+
+q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+a: The staging area allows you to select specific files from the working directory so that the user can commit logical changes, or commit all the files in the working directory at once. 
+
+q: 
