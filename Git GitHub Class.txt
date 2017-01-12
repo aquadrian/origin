@@ -1,0 +1,35 @@
+Git GitHub Class Notes
+
+Compare documents 
+Windows: FC filename filename
+Mac: Diff –u filename filename
+Git: git diff
+
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+Statistics command for Git
+git log --stat  
+
+View Hidden Files in Bash
+ls -a
+
+Status of git repo
+git status
+
+create git repo
+git init
+
+add files to staging area before git repo
+git add
+
+Specify a commit message via command line
+git commit -m "Commit message"
+
