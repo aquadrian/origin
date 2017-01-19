@@ -10,3 +10,18 @@ q: How can you use the staging area to make sure you have one commit per logical
 
 a: If a logical change has not been made in a working directory, then the user can select only the files which have a logical change made to be commited into the repository. 
 
+q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+a: If you are adding new features and want to make a change to the code, then a branch can be made where master will not be affected by the changes made to the new branch. 
+
+q: How do the diagrams help you visualize the branch structure?
+
+a: The diagrams helps in visualizing how the stucture of the repository is laid out and helps stay orgainzed with commits and allows users to add new branches in the correct area of an existing branch to trach those new changes or features. 
+
+q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+a: Merging two branches will create a new master branch by first merging each parent commit to the new master and then removing the old branches. If you remove the branch before commiting, then you loose access to the previous commits under that branch. 
+
+q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+a: The auto merging helps by combining two pieces of code intelligently while also being mindful of any changes made to functions that exist in both commits. Doing merges manually can be very tedious, but it allows the programmer to carefully merge two commits and add features carefully.
